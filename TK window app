@@ -1,0 +1,20 @@
+## TK WINDOW APP
+
+from tkinter import *
+from PIL import ImageTk, Image
+
+window1 = Tk()
+window1.title("Platforma")
+obraz = ImageTk.PhotoImage(Image.open("C:\\Users\\xarve\Desktop\aaa.jpg"))
+mylabel = Label(image=obraz)
+window1.title("wersja 2019.v2")
+mylabel.pack()
+button_window = Button(window1, text="APLIKACJA PRZESTARZAŁA...SERWER NIE ODPOWIADA, KLIKIJ ABY ZAKOŃCZYĆ",  width=100, height=5 , bg='lightblue' , fg='black', command=window1.quit)
+button_window.pack()
+window1.mainloop()
+
+
+
+#color geometry txt : 
+https://pythonexamples.org/python-tkinter-button-background-color/
+https://pythonexamples.org/python-tkinter-button-change-font/
