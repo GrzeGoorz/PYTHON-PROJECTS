@@ -4,7 +4,7 @@ gmail_user = 'email'
 gmail_password = 'passw'
 
 sent_from = gmail_user
-to = ['gsakul@go2.pl']
+to = ['any@go2.pl']
 subject = 'OMG Super Important Message'
 body = 'Hey txtxtx txtxtxtxt'
 
