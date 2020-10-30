@@ -1,0 +1,4 @@
+import os.path
+print(os.getlogin())
+print(os.getenv('username'))
+print(os.environ['USERPROFILE']) #C:\Users\username
