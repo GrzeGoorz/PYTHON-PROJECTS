@@ -1,4 +1,9 @@
+###### install exe for GIT - TK :
+# pyinstaller --hidden-import=pkg_resources.py2_warn --onefile --noconsole example.py
+
+
 # PYTHON-NOTE
+
 
 # only for system windows
 from tkinter import *
