@@ -1,4 +1,4 @@
 COPY FORM 'FILE'> PASE TO 'FILE'
 
 from shutil import copyfile
-copyfile('E:/keylogger.exe', 'C:/CEL/keylogger.exe')
+copyfile('E:/xyz.exe', 'C:/folder/xyz.exe')
